@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(208, 205, 192);
+}
+
+.header {
+    background-color: rgb(67, 67, 75);
+    background-repeat: repeat-x;
+    height: 60px;
+}
+
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    img {
+        position:relative;
+        display: inline-block;
+        margin: 10px 0 0 10px;
+    }
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    right:0;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(208, 205, 192);
+    line-height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(78, 198, 206);
+    }
+}
+
+.makebutton {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 655px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: rgb(45, 185, 181);
+    color: #fff;
+}
+
+.dark-ghost {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    display: none;
+    z-index: 5;
+    &.active {
+        display: inline-block;
+    }
+}
+
+.form {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(208, 205, 192);
+    position: fixed;
+    z-index: 10;
+    top: 33%;
+    left: 33%;
+    border-radius: 10px;
+}
+
+.taskname {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+}
+
+.tasknotes {
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    height: 130px;
+    width: 300px;
+    display: inline-block;
+}
+ 
+.submitbtn {
+    margin-left: 80px;
+    position: relative;
+    display: inline-block;
+    background-color: rgb(67, 67, 75);
+    color: #fff;
+}
+
+.cancelbtn {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(67, 67, 75);
+    color: #fff;
+}
+
+.newtasks {
+  width: 790px;
+  height: 125px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: 65px;
+  border-radius: 10px;
+}
+
+.bodycontainer {
+    background-color: rgb(130, 135, 142);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.toppart {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(67, 67, 75);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.middletask {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.secondmiddle {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+.spantask {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(67, 67, 75);
+    font-size: 20px;
+}
+
+.spannotes {
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgb(67, 67, 75);
+    font-size: 20px;
+}
+
+.bottompart {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.topofnew {
+    display: inline-block;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(67, 67, 75);
+}
+
+.printed-task p {
+    display: inline-block;
+    position: relative;
+    height: 30px;
+    margin: 0; 
+    line-height: 40px;   
+    font-size: 30px;
+    color: #fff;
+}
+
+.printed-notes p {
+    padding-left: 10px;
+}
+
+
+
+
+
